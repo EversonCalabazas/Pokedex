@@ -20,9 +20,9 @@ export default {
   },
   created: function(){
     axios.get("https://pokeapi.co/api/v2/pokemon?limit=151&offset=0").then(res=>{
-      console.log("Pegou a lista de pokemons:");
+      //console.log("Pegou a lista de pokemons:");
       this.pokemons = res.data.results;
-      console.log(this.pokemons);
+      //console.log(this.pokemons);
     })
   },
   components:{
