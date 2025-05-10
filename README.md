@@ -1,24 +1,14 @@
 # pokedex
 
-## Project setup
+## Projeto Pokemon utilizando as seguintes tecnologias:
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+* VueJS
+* Bulma
+* API Pokemon
+* Axios
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### Este projeto consite em realizar requisições a API Pokemon e obter dados dos pokemons existente e exibir em página. 
+### Cada Pokemon será exibido em um card com sua respectiva imagem e botão para mudar imagem.
+### Uma das funções é clicar num botão do card do Pokemon e trocar sua imagem de frente para imagem de costa. 
+### Outra funcionalidade é um campo de pesquisa e exibir o(s) Pokemon(s) digitado na busca.
